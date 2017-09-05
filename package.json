@@ -1,7 +1,7 @@
 {
-  "name": "pxt-sample",
-  "version": "1.0.9",
-  "description": "sample target for PXT",
+  "name": "pxt-stm32-nucleo",
+  "version": "1.0.0",
+  "description": "STM32 target for PXT",
   "keywords": [
     "JavaScript",
     "education",
@@ -9,11 +9,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Microsoft/pxt-sample.git"
+    "url": "https://github.com/LabAixBidouille/pxt-stm32-nucleo-L476RG"
   },
   "author": "",
   "license": "MIT",
-  "homepage": "https://github.com/Microsoft/pxt-sample#readme",
+  "homepage": "https://github.com/LabAixBidouille/pxt-stm32-nucleo-L476RG#readme",
   "files": [
     "README.md",
     "pxtarget.json",

@@ -103,7 +103,9 @@
   "robotdulab": "Basic functionalities.",
   "robotdulab.forward": "Moves the sprite forward",
   "robotdulab.forward|param|steps": "number of steps to move, eg: 1",
-  "robotdulab.turn": "Moves the sprite forward",
+  "robotdulab.moveBackward": "Move backward the robot\n* @param time Delay of the move",
+  "robotdulab.moveForward": "Move forward the robot\n* @param time Delay of the move",
+  "robotdulab.turn": "Moves the sprite forward\n\n\n\nTurn the robot",
   "robotdulab.turn|param|angle": "degrees to turn, eg:90",
   "robotdulab.turn|param|direction": "the direction to turn, eg: Direction.Left"
 }

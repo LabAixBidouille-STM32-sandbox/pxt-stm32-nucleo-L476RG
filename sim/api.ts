@@ -17,7 +17,7 @@ namespace pxsim.robotdulab {
      * @param angle degrees to turn, eg:90
      */
     //% weight=85
-    //% blockId=sampleTurn block="turn %direction|by %angle degrees"
+    //% blockId=RobotDuLabTurn block="turn %direction|by %angle degrees"
     export function turnAsync(direction: Direction, angle: number) {
         let b = board();
 

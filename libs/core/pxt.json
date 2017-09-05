@@ -1,12 +1,15 @@
 {
     "name": "core",
-    "description": "A target sample for PXT",
+    "description": "A STM32 target for PXT",
     "files": [
         "README.md",
         "pxt-core.d.ts",
         "pxt-helpers.ts",
+        "robotdulab.h",
+        "robotdulab.cpp",
         "enums.d.ts",
         "sims.d.ts",
+        "shims.d.ts",
         "ns.ts"
     ],
     "testFiles": [

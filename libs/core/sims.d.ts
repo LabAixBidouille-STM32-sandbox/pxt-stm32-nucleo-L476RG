@@ -15,7 +15,7 @@ declare namespace robotdulab {
      * @param angle degrees to turn, eg:90
      */
     //% weight=85
-    //% blockId=sampleTurn block="turn %direction|by %angle degrees"
+    //% blockId=RobotDuLabTurn block="turn %direction|by %angle degrees"
     //% shim=robotdulab::turnAsync promise
     function turn(direction: Direction, angle: number): void;
 
