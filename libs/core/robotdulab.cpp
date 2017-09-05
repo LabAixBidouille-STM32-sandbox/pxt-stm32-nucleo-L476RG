@@ -8,7 +8,7 @@ namespace robotdulab {
 /**
 * Move forward the robot
 *
-* @param time Delay of the move
+* @param time Duration of the move
 */
 //% blockId=robotdulab_move_forward block="move forward %time" 
 //% parts="robotdulab"
@@ -18,12 +18,14 @@ void moveForward(int time) {
 /**
 * Move backward the robot
 *
-* @param time Delay of the move
+* @param time Duration of the move
 */
 //% blockId=robotdulab_move_backward block="move backward %time"
 //% parts="robotdulab"
 void moveBackward(int time) {
 }
+
+
 
 /**
 * Turn the robot
@@ -34,6 +36,15 @@ void moveBackward(int time) {
 //% blockId=robotdulab_turn block="turn %direction|by %angle degrees"
 void turn(Direction direction, int angle){
 
+}
+
+
+/**
+* Get the distance from obstacle in front of the robot
+*/
+//% blockId=robotdulab_get_distance block="get distance in cm"
+int getDistance(){
+    return 0;
 }
 
 }

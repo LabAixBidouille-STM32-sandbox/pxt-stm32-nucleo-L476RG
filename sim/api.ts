@@ -21,7 +21,7 @@ namespace pxsim.robotdulab {
     export function turnAsync(direction: Direction, angle: number) {
         let b = board();
 
-        if (direction == Direction.Left)
+        if (direction == Direction.LEFT)
             b.sprite.angle -= angle;
         else
             b.sprite.angle += angle;

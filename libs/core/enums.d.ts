@@ -21,9 +21,9 @@
 
     declare const enum Direction
     {
-    //% block="Left"
+    //% block="left"
     LEFT = 0,
-    //% block="Right"
+    //% block="right"
     RIGHT = 1,
     }
 

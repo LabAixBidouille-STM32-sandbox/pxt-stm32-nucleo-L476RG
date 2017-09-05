@@ -36,9 +36,9 @@
  /** Sens de rotation servomoteur */
 enum class Direction
  {
-//% block="Left"
+//% block="left"
 LEFT,
-//% block="Right"
+//% block="right"
 RIGHT
  };
  
