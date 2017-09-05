@@ -1,32 +1,40 @@
 {
-    "id": "sample",
-    "name": "sample",
-    "title": "MakeCode Editor Sample",
+    "id": "stm32iotnode",
+    "name": "STM32 IoT Node",
+    "title": "STM32 IoT Node MakeCode Editor",
+    "description": "A Blocks / JavaScript code editor for the STM32 IoT Node powered by Microsoft MakeCode.",
     "corepkg": "core",
     "cloud": {
         "workspace": false,
-        "packages": true
+        "packages": true,
+        "sharing": true,
+        "publishing": true,
+        "githubPackages": true
     },
     "bundleddirs": [
         "libs/core"
     ],
     "runtime": {
-      "mathBlocks": true,
-      "loopsBlocks": true,
-      "logicBlocks": true,
-      "variablesBlocks": true,
-      "textBlocks": true,
-      "functionBlocks": true,
-      "listsBlocks": true 
+        "mathBlocks": true,
+        "loopsBlocks": true,
+        "logicBlocks": true,
+        "variablesBlocks": true,
+        "textBlocks": true,
+        "listsBlocks": true,
+        "functionBlocks": true,
+        "onStartColor": "#0078D7",
+        "onStartNamespace": "robotdulab",
+        "onStartWeight": 54
     },
     "simulator": {
-        "autoRun": true
+        "autoRun": false,
+        "stopOnChange" : true,
+        "enableTrace" : true
     },
+    
     "appTheme": {
-        "logoUrl": "https://github.com/Microsoft/pxt-sample",
-        "homeUrl": "http://microsoft.github.io/pxt-sample/",
-        "privacyUrl": "https://go.microsoft.com/fwlink/?LinkId=521839",
-        "termsOfUseUrl": "https://go.microsoft.com/fwlink/?LinkID=206977",
+        "logoUrl": "https://github.com/labaixbidouille/pxt-robotdulab",
+        "homeUrl": "http://labaixbidouille.github.io/pxt-robotdulab/",
         "betaUrl": "https://makecode.com/",
         "docMenu": [
             {
@@ -41,7 +49,7 @@
         "coloredToolbox": true,
         "monacoToolbox": true,
         "invertedMenu": true,
-        "useStartPage": true,
+        "useStartPage": false,
         "blocklyOptions": { 
             "grid": {
                 "spacing": 45,
@@ -52,6 +60,6 @@
         },
         "simAnimationEnter": "fly right in",
         "simAnimationExit": "fly right out",
-        "disableBlockIcons": true
+        "disableBlockIcons": false
     }
 }

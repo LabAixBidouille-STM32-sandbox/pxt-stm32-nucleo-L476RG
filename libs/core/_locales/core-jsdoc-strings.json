@@ -100,11 +100,10 @@
   "loops.forever|param|body": "the code to repeat",
   "loops.pause": "Pause for the specified time in milliseconds",
   "loops.pause|param|ms": "how long to pause for, eg: 100, 200, 500, 1000, 2000",
-  "sprites.createSprite": "Creates a new sprite",
-  "turtle": "Basic functionalities.",
-  "turtle.forward": "Moves the sprite forward",
-  "turtle.forward|param|steps": "number of steps to move, eg: 1",
-  "turtle.turn": "Moves the sprite forward",
-  "turtle.turn|param|angle": "degrees to turn, eg:90",
-  "turtle.turn|param|direction": "the direction to turn, eg: Direction.Left"
+  "robotdulab": "Basic functionalities.",
+  "robotdulab.forward": "Moves the sprite forward",
+  "robotdulab.forward|param|steps": "number of steps to move, eg: 1",
+  "robotdulab.turn": "Moves the sprite forward",
+  "robotdulab.turn|param|angle": "degrees to turn, eg:90",
+  "robotdulab.turn|param|direction": "the direction to turn, eg: Direction.Left"
 }

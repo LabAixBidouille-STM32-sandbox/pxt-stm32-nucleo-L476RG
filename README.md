@@ -1,13 +1,9 @@
-# Sample target for PXT
+# STM32 target for PXT
 
-Sample target for
-[Microsoft Programming Experience Toolkit](https://github.com/Microsoft/pxt) - [TRY IT LIVE](http://microsoft.github.io/pxt-sample/)
-
-[![Build Status](https://travis-ci.org/Microsoft/pxt-sample.svg?branch=master)](https://travis-ci.org/Microsoft/pxt-sample)
 
 ## Running locally
 
-These instructions allow to run locally to modify the sample.
+These instructions allow to run locally
 
 ### Setup
 

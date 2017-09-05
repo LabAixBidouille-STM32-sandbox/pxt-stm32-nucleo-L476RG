@@ -115,7 +115,7 @@
    Menu
 --------------------*/
 
-@mainMenuInvertedBackground: @pink;
+@mainMenuInvertedBackground: @lightBlue;
 @mainMenuTutorialBackground: @orange;
 
 @mainMenuHeight: 4.5rem;

@@ -1,6 +1,6 @@
 /// <reference path="../libs/core/enums.d.ts"/>
 
-namespace pxsim.turtle {
+namespace pxsim.robotdulab {
     /**
      * Moves the sprite forward
      * @param steps number of steps to move, eg: 1
@@ -100,15 +100,5 @@ namespace pxsim {
             board().updateView();
             return Promise.delay(400)
         }
-    }
-}
-
-namespace pxsim.sprites {
-    /**
-     * Creates a new sprite
-     */
-    //% block
-    export function createSprite(): Sprite {
-        return new Sprite();
     }
 }
