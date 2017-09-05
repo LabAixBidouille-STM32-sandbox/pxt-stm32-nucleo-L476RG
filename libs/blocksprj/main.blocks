@@ -1,2 +1,47 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
+  <variables></variables>
+  <block type="device_forever" id="nbtoq2gwbm1{H7P)%(t_" x="203" y="158">
+    <statement name="HANDLER">
+      <block type="robotdulab_move_forward" id="iFbhE7|4+is@E0yA2=]/">
+        <value name="time">
+          <shadow type="math_number" id=")0/8HxmlfXeA3~|fT}X}">
+            <field name="NUM">1</field>
+          </shadow>
+        </value>
+        <next>
+          <block type="controls_if" id="6Y~ob1#5@,4Y`UXCdSg^">
+            <value name="IF0">
+              <shadow type="logic_boolean" id="MJ(Gcr;d{Ta){H@C9@o]">
+                <field name="BOOL">TRUE</field>
+              </shadow>
+              <block type="logic_compare" id="[vlLi^Qu4$Sf3B_n)]+G">
+                <field name="OP">LT</field>
+                <value name="A">
+                  <shadow type="math_number" id="kC7BSo@!nfi^O,yp0:w.">
+                    <field name="NUM">0</field>
+                  </shadow>
+                  <block type="robotdulab_get_distance" id="!l.,hDNIsns@Y@a3!R`O"></block>
+                </value>
+                <value name="B">
+                  <shadow type="math_number" id="uYF537d#Gx1YGA+Ir{)?">
+                    <field name="NUM">5</field>
+                  </shadow>
+                </value>
+              </block>
+            </value>
+            <statement name="DO0">
+              <block type="robotdulab_turn" id="0WHrDg1er{yL@SiHBWoM">
+                <field name="direction">Direction.LEFT</field>
+                <value name="angle">
+                  <shadow type="math_number" id="IP:6=*WdmUTQUCS[#z%a">
+                    <field name="NUM">90</field>
+                  </shadow>
+                </value>
+              </block>
+            </statement>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
 </xml>

@@ -1,7 +1,7 @@
 {
-    "name": "{0}",
+    "name": "Exemple",
     "dependencies": {
-        "core": "file:../core"
+        "core": "*"
     },
     "description": "",
     "files": [
